@@ -1,0 +1,61 @@
+@media (max-width:1024px) {
+  .heading-2 {
+    font-size: 2.6rem;
+  }
+  #home-des-text {
+    font-size: 1.6rem;
+  }
+  #home-des-buy {
+    font-size: 1.4rem;
+  }
+  #arrivals-item-name {
+    font-size: 1.4rem;
+  }
+  #arrivals-item-btn {
+    font-size: 1.2rem;
+  }
+  .heading-4 {
+    font-size: 1.9rem;
+  }
+  #subscribe-step3 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width:992px) {
+ #nav-a {
+   font-size: 1.4rem;
+ }
+ .input-group {
+   padding: 1rem;
+ }
+ #subscribe-btn {
+  padding-top: 1.4rem;
+  padding-bottom: 1.4rem;
+ }
+ #subscribe-input {
+  padding-top: 1.4rem;
+  padding-bottom: 1.4rem;
+ }
+}
+
+@media (max-width:768px) {
+  #subscribe .step1 {
+  border: none;
+ }
+ #subscribe .step3 {
+  border: none;
+ }
+}
+
+@media (max-width:576px) {
+  .navbar-dark .navbar-toggler {
+    margin-left: 1rem;
+  }
+  .heading-1 {
+    font-size: 5rem;
+  }
+  #header-list-item a {
+    font-size: 1.6rem;
+  }
+}

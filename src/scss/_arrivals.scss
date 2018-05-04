@@ -1,0 +1,72 @@
+#arrivals {
+  margin: 5rem 0;
+  &-title {
+    position: relative;
+    h3 {
+      display: inline-block;
+    }
+    h3:after {
+      display: block;
+      content: '';
+      background: $color-yellow;
+      width: 23rem;
+      height: 1rem;
+      position: absolute;
+      top: 2.8rem;
+      z-index: -1;
+    }
+  }
+  &-item {
+    margin: 2rem 0;
+    &-img {
+      width: 30rem;
+      height: auto;
+    }
+    &-img2 {
+      margin-bottom: 2rem;
+      width: 20rem;
+      height: auto;
+    }
+    &-name {
+      font-size: 1.6rem;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+    &-price {
+      font-size: 2rem;
+      font-weight: 700;
+    }
+    &-btn {
+      border: 1px solid $color-secondary;
+      border-radius: 5px;
+      color: $color-secondary;
+      text-decoration: none;
+      text-transform: capitalize;
+      padding: 0.8rem 2rem;
+      font-size: 1.4rem;
+      font-weight: 600;
+      transition: all 0.5s;
+    }
+    &-btn:hover {
+      background: $color-secondary;
+      color: #fff;
+    }
+  }
+  #best-title {
+    position: relative;
+    h3 {
+      display: inline-block;
+    }
+    h3:after {
+      display: block;
+      content: '';
+      background: $color-yellow;
+      width: 26.5rem;
+      height: 1rem;
+      position: absolute;
+      top: 2.8rem;
+      z-index: -1;
+    }
+  }
+  
+}

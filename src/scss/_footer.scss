@@ -1,0 +1,37 @@
+#footer {
+  border-top: 1px solid $color-grey-light;
+  margin-top: 3rem;
+  padding-top: 3rem;
+  &-list {
+    list-style: none;
+    &-link {
+     color: $color-secondary;
+     font-size: 1.3rem;
+     font-weight: 300;
+    }
+    li {
+      padding: 0.5rem 0;
+    }
+  }
+  &-social {
+    margin-top: 3rem;
+    list-style: none;
+    li {
+      padding: 0 1.5rem;
+      display: inline-block;
+      a i {
+        font-size: 3rem;
+        color: $color-secondary;
+        transition: all 0.7s;
+      }
+      a i:hover {
+        color: $color-grey-dark;
+      }
+    }
+  }
+  &-text {
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    color: $color-grey-dark;
+  }
+}

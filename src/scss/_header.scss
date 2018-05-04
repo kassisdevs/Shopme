@@ -1,0 +1,23 @@
+#header {
+  &-content {
+    margin-top: 14rem;
+  }
+  &-list {
+    margin: 7rem 0;
+    list-style: none;
+    &-item {
+      display: inline;
+      padding: 0 2rem;
+      a {
+        color: $color-secondary;
+        font-size: 1.8rem;
+        font-weight: 600;
+        line-height: 5rem;
+        text-decoration: none;
+      }
+      a:hover {
+        color: $color-grey-dark;
+      }
+    }
+  }
+}

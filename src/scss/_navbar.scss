@@ -1,0 +1,25 @@
+#nav {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid $color-grey-light;
+   &-a {
+     color: $color-four;
+     font-size: 1.2rem;
+     font-weight: 300;
+     line-height: 1.6;
+     transition: all 0.5s;
+   }
+   &-a:hover {
+    border-bottom: 0.5px solid $color-primary;
+    transform: translateY(5%);
+  }
+   &-icon {
+     color: $color-four;
+     font-size: 1.7rem;
+     margin-right: 1rem;
+   }
+   &-toggler {
+     background-color: $color-four;
+    //  background: $color-four;
+     color: $color-four;
+   }
+}

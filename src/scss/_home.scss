@@ -1,0 +1,38 @@
+#home {
+  margin: 5rem 0;
+  &-box {
+    background-color: $color-grey-light;
+  }
+  &-des {
+    margin-top: 20rem;
+    &-text {
+      font-size: 1.8rem;
+      margin-right: 1rem;
+      font-weight: 400;
+    }
+    &-price {
+      font-size: 2.2rem;
+      margin-right: 2rem;
+      font-weight: 600;
+      
+    }
+    &-buy {
+      display: block;
+      color: $color-secondary;
+      margin: 3rem 0;
+      font-size: 2rem;
+      text-decoration: none;
+      border: 1px solid $color-secondary;
+      border-radius: 5px;
+      padding: 1rem 2rem;
+      font-weight: 600;
+      margin-right: 1rem;
+      transition: all 0.7s;
+    }
+    &-buy:hover {
+      color: #fff;
+      background-color: $color-secondary;
+      
+    }
+  }
+}

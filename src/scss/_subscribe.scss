@@ -1,0 +1,83 @@
+#subscribe {
+  &-text {
+    margin: 3rem 0;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: $color-four;
+  }
+  &-input {
+    padding: 2rem 8rem;
+    font-size: 1.8rem;
+    font-weight: 300;
+    border: 1px solid $color-grey-light;
+    transition: all 0.7s;
+  }
+  &-input:hover {
+    border-color: $color-four;
+  }
+  &-btn {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 2rem 3rem;
+    margin-left: 1rem;
+    border: 1px solid $color-four;
+    border-radius: 5px;
+    background-color: $color-third;
+    transition: all 0.7s;
+  }
+  &-btn:hover {
+    color: $color-third;
+    background-color: #fff;
+  }
+  &-step1 {
+    display: inline-block;
+    color: #fff;
+    width: 5rem;
+    border-radius: 50%;
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: $color-secondary;
+    font-weight: 300;
+  }
+  &-step2 {
+    margin: 2rem 0;
+  }
+  &-step3 {
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: $color-four;
+    margin: 2rem 0;
+  }
+  .step1{
+    border-right: 1px solid $color-secondary;
+  }
+  .step3{
+    border-left: 1px solid $color-secondary;
+  }
+  .step1, .step2, .step3 {
+    padding: 1rem 0;
+  }
+  #sub-box1 {
+    margin: 10rem 0;
+  }
+  #sub-box2 {
+    margin: 10rem 0;
+  }
+  #newsletter-title {
+    position: relative;
+    h3 {
+      display: inline-block;
+    }
+    h3:after {
+      display: block;
+      content: '';
+      background: $color-yellow;
+      width: 20rem;
+      height: 1rem;
+      position: absolute;
+      top: 2.8rem;
+      z-index: -1;
+    }
+  }
+}
